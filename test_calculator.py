@@ -4,8 +4,12 @@ import calculator
 class TestCal(unittest.TestCase):
     ## Test Add Function
     def test_add(self):
-        result = calculator.add(30,15)
-        self.assertEqual(result,45)
+        # result = calculator.add(30,15)
+        # self.assertEqual(result,45)
+        self.assertEqual(calculator.add(30,15),45)
+        self.assertEqual(calculator.add(30,-15),15)
+        self.assertEqual(calculator.add(-30,-15),-45)
+        self.assertEqual(calculator.add(-30,15),-15)
     ## Test Subtract Function
     def test_sub(self):
         result = calculator.sub(30,15)
