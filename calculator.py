@@ -13,3 +13,5 @@ def div(x,y):
         raise ValueError('Division by zero not allowed.')
     return x/y
 
+## Check function is working
+#print(add(5,3))
