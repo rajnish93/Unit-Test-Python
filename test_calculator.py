@@ -18,3 +18,7 @@ class TestCal(unittest.TestCase):
     def test_div(self):
         result = calculator.div(30,15)
         self.assertEqual(result,2)
+"""
+ Run code using:
+ python -m unittest test_calculator.py
+ """
