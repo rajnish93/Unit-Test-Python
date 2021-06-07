@@ -22,3 +22,9 @@ class TestCal(unittest.TestCase):
  Run code using:
  python -m unittest test_calculator.py
  """
+if __name__=='__main__':
+    unittest.main()
+"""
+ Run code using if main is present:
+ python test_calculator.py
+ """
